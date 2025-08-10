@@ -223,5 +223,9 @@ bar {
 
 exec_always nm-applet --indicator
 
+input type:touchpad {
+    tap enabled
+}
+
 include /etc/sway/config.d/*
 
